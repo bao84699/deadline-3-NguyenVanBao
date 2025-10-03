@@ -1,0 +1,68 @@
+@media screen and (max-width: 750px) {
+    .header {
+        margin: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        justify-content: space-between;
+    }
+    .logo {
+        width: 140px;
+        height: 42px;
+        order: 2;
+    }
+    .menu {
+        width: 66px;
+        height: 36px;
+        font-weight: 700;
+        order: 1;
+        flex: none;
+    }
+    .button {
+        width: 78px;
+        height: 36px;
+        order: 3;
+    }
+    .image {
+        width: 100%;
+        height: 491px;
+        order: 1;
+    }
+    .content {
+        width: 100%;
+        order: 2;
+    }
+    .title {
+        width: 100%;
+        height: 60px;
+    }
+    .item {
+        width: 100%;
+        height: 420px;
+    }
+    .box2-item {
+        justify-content: flex-start;
+    }
+    .item3 {
+        width: calc((100% - 30px) / 2);
+        height: 300px;
+    }
+    .item4 {
+        width: calc((100% - 30px) / 2);
+        height: 300px;
+    }
+    .box1 {
+        padding: 15px;
+    }
+    .box2 {
+        padding: 15px;
+    }
+    .box3 {
+        padding: 15px;
+    }
+    .box4 {
+        padding: 15px;
+    }
+}
