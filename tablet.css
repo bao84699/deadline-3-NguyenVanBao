@@ -1,11 +1,10 @@
 @media only screen and (max-width: 1230px) {
     .header {
+        padding: 15px 0;
+    }
+    .headerbox {
+        max-width: 720px;
         margin: auto;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        width: 100%;
-        padding-left: 136px;
-        padding-right: 136px;
     }
     .logo {
         width: 140px;
@@ -13,7 +12,7 @@
     }
     .menu {
         height: 30px;
-        font-weight: 700
+        font-weight: 700;
     }
     .button {
         width: 102px;
@@ -23,7 +22,7 @@
         height: 310px;
     }
     .title {
-        width: 100%;
+        width: 720px;
         height: 60px;
     }
     .item {
@@ -31,7 +30,7 @@
         height: 420px;
     }
     .box2-item {
-        justify-content: flex-start;
+        max-width: 720px;
     }
     .item3 {
         width: calc((100% - 2*30px) / 3);
@@ -41,16 +40,5 @@
         width: calc((100% - 30px) / 2);
         height: 300px;
     }
-    .box1 {
-        padding: 136px;
-    }
-    .box2 {
-        padding: 136px;
-    }
-    .box3 {
-        padding: 136px;
-    }
-    .box4 {
-        padding: 136px;
-    }
+    
 }
