@@ -34,7 +34,8 @@
         order: 2;
     }
     .title {
-        width: 546px;
+        width: 95%;
+        max-width: 546px;
         height: 60px;
     }
     .item {
